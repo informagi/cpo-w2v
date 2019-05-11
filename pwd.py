@@ -16,7 +16,7 @@ def main(argv):
          sys.exit()
       elif opt in ("-p", "--pwd"):
          mypwd = arg
-      print passwd(mypwd)
+   print "'{}'".format(passwd(mypwd))
          
 if __name__ == "__main__":
    main(sys.argv[1:])
