@@ -1,6 +1,6 @@
-# COPD W2V
+# CPO W2V
 
-W2V experiments for COPD lecture on bias in ML
+W2V experiments for CPO & iCIS lecture on bias in ML.
 
 ## Initial Steps
 
