@@ -8,16 +8,9 @@ W2V experiments for COPD lecture on bias in ML
 
     docker create -p 8888:8888 \
       -v `pwd`/notebooks:/home/jovyan/work:z \
-      --name copd --user `id -u` --group-add users jupyter/scipy-notebook \
+      --name copd --user `id -u` --group-add users jupyter/minimal-notebook \
       start-notebook.sh --NotebookApp.password=`python pwd.py`
     docker start copd
-
-_Q: is jupyter-minimal sufficient? Need to install gensim anyways!_
-
-    docker exec -it copd /bin/bash
-    $ pip install --upgrade pip gensim
-
-__TODO:__ apply above as part of `docker create` step?
 
 ### Download GoogleNews wordvectors
 
@@ -34,4 +27,4 @@ These pre-trained W2V vectors have also been shared as an
 
 ## Etc.
 
-
+_Etc._
