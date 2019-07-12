@@ -25,6 +25,12 @@ These pre-trained W2V vectors have also been shared as an
     sudo dnf install transmission-cli
     transmission-cli http://academictorrents.com/download/2aa0d0c6aff92f08719e409db04ecee4721cf21f.torrent
 
+## Notebooks:
+This repository contains three Jupyter notebooks:
+- cpo-notebook.ipynb : Notebook used for the CPO & iCIS lecture
+- Reproducing_figures_poster_ipynb : Notebook for reproducing all the figures from the poster/paper
+- Word2vec_Bias_plots : Experimental notebook, use at own risk. 
+
 ## Etc.
 
 _Etc._
