@@ -31,6 +31,5 @@ This repository contains three Jupyter notebooks:
 - Reproducing_figures_poster_ipynb : Notebook for reproducing all the figures from the poster/paper
 - Word2vec_Bias_plots : Experimental notebook, use at own risk. 
 
-## Etc.
-
-_Etc._
+## FDIA 2019:
+This work resulted into a short paper and poster presentation, which will be presented at [FDIA 2019](http://www.ir.disco.unimib.it/essir2019/fdia/). Both the pdf of the paper and poster can be found here. 
