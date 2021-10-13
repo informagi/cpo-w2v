@@ -8,9 +8,9 @@ W2V experiments for CPO & iCIS lecture on bias in ML.
 
     docker create -p 8888:8888 \
       -v `pwd`/notebooks:/home/jovyan/work:z \
-      --name copd --user `id -u` --group-add users jupyter/minimal-notebook \
+      --name cpo --user `id -u` --group-add users jupyter/minimal-notebook \
       start-notebook.sh --NotebookApp.password=`python pwd.py`
-    docker start copd
+    docker start cpo
 
 ### Download GoogleNews wordvectors
 
